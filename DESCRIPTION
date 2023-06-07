@@ -1,6 +1,6 @@
 Package: vaccHamilton
 Title: A Data Package to Estimate Accessibility of Vaccination Sites in Hamilton, ON
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person("Antonio", "Paez", , "paezha@mcmaster.ca", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-6912-9919"))
