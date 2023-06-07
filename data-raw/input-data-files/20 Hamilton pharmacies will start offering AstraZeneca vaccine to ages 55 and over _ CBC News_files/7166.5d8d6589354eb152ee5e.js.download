@@ -1,1 +1,0 @@
-(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[7166],{87166:function(t,e,s){"use strict";var _=s(21914),u=s(34637),a=function(t){var e=t.children,s=t.statusCode;return 2!==(t.statusCode/100|0)?_.createElement(u.default,{statusCode:s}):e};a.defaultProps={statusCode:200},e.Z=a}}]);

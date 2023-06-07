@@ -7,9 +7,28 @@
 \title{vaccHamilton: What the Package Does (One Line, Title Case)}
 \description{
 vaccHamilton is a companion package for the paper "An examination of accessibility to pilot COVID-19 vaccination sites in Hamilton, Ontario". The package includes the data used in the analysis. Contains information licensed under the Open Government Licence – Canada (https://open.canada.ca/en/open-government-licence-canada). Contains public sector data made available under the City of Hamilton’s Open Data Licence (https://www.hamilton.ca/city-initiatives/strategies-actions/open-data-licence-terms-and-conditions).
+
+vaccHamilton is a companion package for the paper "An examination of accessibility to pilot COVID-19 vaccination sites in Hamilton, Ontario".
+}
+\details{
+The package includes the data used in the analysis.
+
+Contains information licensed under the Open Government Licence – Canada (https://open.canada.ca/en/open-government-licence-canada).
+
+Contains public sector Data made available under the City of Hamilton’s Open Data Licence (https://www.hamilton.ca/city-initiatives/strategies-actions/open-data-licence-terms-and-conditions).
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/paezha/vaccHamilton}
+  \item Report bugs at \url{https://github.com/paezha/vaccHamilton/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Antonio Paez \email{paezha@mcmaster.ca} (\href{https://orcid.org/0000-0001-6912-9919}{ORCID})
 
+
+Antonio Paez, \email{paezha@mcmaster.ca}
 }
 \keyword{internal}

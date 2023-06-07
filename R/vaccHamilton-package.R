@@ -17,7 +17,7 @@ NULL
 #'
 #' @author Antonio Paez, \email{paezha@@mcmaster.ca}
 #' @docType package
-#' @name vaccHamilton
+#' @name vaccHamilton-package
 NULL
 
 #' Hamilton CMA Dissemination Areas with Selected Census Information.
