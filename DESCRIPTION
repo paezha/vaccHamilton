@@ -1,5 +1,5 @@
 Package: vaccHamilton
-Title: What the Package Does (One Line, Title Case)
+Title: A Data Package to Estimate Accessibility of Vaccination Sites in Hamilton, ON
 Version: 0.1.0
 Authors@R: 
     person("Antonio", "Paez", , "paezha@mcmaster.ca", role = c("aut", "cre"),

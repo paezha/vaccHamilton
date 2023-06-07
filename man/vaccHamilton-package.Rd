@@ -4,7 +4,7 @@
 \name{vaccHamilton-package}
 \alias{vaccHamilton}
 \alias{vaccHamilton-package}
-\title{vaccHamilton: What the Package Does (One Line, Title Case)}
+\title{vaccHamilton: A Data Package to Estimate Accessibility of Vaccination Sites in Hamilton, ON}
 \description{
 vaccHamilton is a companion package for the paper "An examination of accessibility to pilot COVID-19 vaccination sites in Hamilton, Ontario". The package includes the data used in the analysis. Contains information licensed under the Open Government Licence – Canada (https://open.canada.ca/en/open-government-licence-canada). Contains public sector data made available under the City of Hamilton’s Open Data Licence (https://www.hamilton.ca/city-initiatives/strategies-actions/open-data-licence-terms-and-conditions).
 
