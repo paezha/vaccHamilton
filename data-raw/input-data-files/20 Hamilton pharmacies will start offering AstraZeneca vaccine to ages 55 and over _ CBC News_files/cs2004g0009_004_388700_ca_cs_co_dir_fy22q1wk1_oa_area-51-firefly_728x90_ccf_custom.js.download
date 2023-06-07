@@ -1,0 +1,52 @@
+var banner = document.getElementById('banner');
+
+var tl = new TimelineMax({repeat:0, repeatDelay:2.5});
+
+window.onload = function() {   
+  
+  tl.set(banner, {visibility: "visible"})
+
+	/*frame one*/	
+	.from(".aw-logo,.vendor-logo, .funding-1st",.3, {alpha:0, ease:Power4.easeout}, "frame1")
+  .to(" .funding-1st",.3, {alpha:0, ease:Power4.easeout}, "frame1+=3")
+  .to(".aw-logo",.3, {scale:.21, y:-67,x:0 , ease:Power4.easeout}, "frame1+=3")
+	.to(".aw-logo, .bg,.funding-1st",.2, { alpha:0, ease:Power4.easeout}, "frame1+=2.7")
+  
+  /*frame two*/
+   .add("frame2","frame1+=2.9")
+   .from(".bg2,.product1, .aw-logofr2", .3,{alpha:0, ease:Power4.easeout}, "frame2")
+   .staggerFrom(".bg2_glow, .title2", .5,{alpha:0, ease:Power2.easeIn},0.2, "frame2+=.2")
+   .to(".title2, .product1, .bg2, .bg2_glow", .3, {alpha:0, ease:Power4.easeout}, "frame2+=2.25")
+	  
+	/*frame three*/
+	.add("frame3","frame2+=2.25")
+   .from(".bg3, .product2", .3,{alpha:0, ease:Power4.easeout}, "frame3")
+   .staggerFrom(".bg3_glow, .title3", .5,{alpha:0, ease:Power2.easeIn},0.2, "frame3+=.2")
+   .to(".title3, .product2, .bg3, .bg3_glow, .aw-logofr2", .3, {alpha:0, ease:Power4.easeout}, "frame3+=2.25")
+  
+  /*frame four*/
+  .add("frame4","frame3+=2.25")
+   .from(".bg4,  .aw-logofr3", .3,{alpha:0, ease:Power4.easeout}, "frame4")
+   .staggerFrom(".bg4_glow, .title4", .5,{alpha:0, ease:Power2.easeIn},0.2, "frame4+=.2")
+   .to(".title4,  .bg4, .bg4_glow", .3, {alpha:0, ease:Power4.easeout}, "frame4+=2.25")
+
+
+  /*frame five*/
+  .add("frame5","frame4+=2.25")
+  .from(".bg5", .3,{alpha:0, ease:Power4.easeout}, "frame5")
+  .from(".title5", .3,{alpha:0, ease:Power4.easeout}, "frame5+=.3")
+  .to(".title5, .aw-logofr3, .bg5", .3, {alpha:0, ease:Power4.easeout}, "frame5+=2.25")
+
+  // /*frame Six*/
+  .add("frame6","frame5+=2.25")
+   .from(".bg_last, .product3", .3,{alpha:0, ease:Power4.easeout}, "frame6")
+   .from(".bg_last_glow", .3,{alpha:0, ease:Power4.easeout}, "frame6+=.2")
+   .from(" .price-text,.cta, .title6, .aw-logo2, .product-name, .line, .funding-last", .2,{alpha:0, ease:Power4.easeout}, "frame6+=.4")
+
+  ;
+  
+  // tl.seek("loop")
+
+  var currentDuration = tl.duration();
+  console.log(currentDuration);   
+};
